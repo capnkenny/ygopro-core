@@ -1,0 +1,13 @@
+[requires]
+lua/5.3.5
+
+[generators]
+cmake_find_package
+cmake_paths
+
+[options]
+lua:shared=True
+
+[imports]
+bin, *.dll -> ./thirdparty
+lib, *.dll -> ./thirdparty
